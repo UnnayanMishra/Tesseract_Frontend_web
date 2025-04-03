@@ -65,7 +65,7 @@ function App() {
               rel="noopener noreferrer"
               className="px-8 py-4 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
             >
-              Sign Up via Google Form <ChevronRight size={20} />
+              FeedBack  <ChevronRight size={20} />
             </a>
             <button 
               onClick={scrollToFeatures}
@@ -132,13 +132,13 @@ function App() {
           <h2 className="text-4xl font-bold text-center mb-16">Meet the Founders</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <FounderCard
-              image="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&auto=format&fit=crop&w=400"
+              image="https://i.postimg.cc/bv7GPgMy/Unnnayan-Image.jpg"
               name="Unnayan Mishra"
               role="AI & Cloud Computing Specialist"
               link="https://a4faa95f527bf64073c9919786737332.serveo.net/login?redirect=/files/"
             />
             <FounderCard
-              image="https://images.unsplash.com/photo-1580518337843-f959e992563b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400"
+              image="https://i.postimg.cc/m2sQCLmL/IMG-20230804-WA0163.jpg"
               name="Krish Munat"
               role="Cybersecurity & Distributed Systems Expert"
             />
@@ -341,7 +341,7 @@ const PriceCard = ({ icon, title, originalPrice, price, features, highlighted = 
         </li>
       ))}
     </ul>
-    <a 
+    {/* <a 
       href="https://docs.google.com/forms/d/e/1FAIpQLSdQd0OsQxuB3krYo-R8c7UmyKylHA4kmpdfKZt2UqnOrOFUyw/viewform?usp=dialog"
       target="_blank"
       rel="noopener noreferrer"
@@ -352,7 +352,7 @@ const PriceCard = ({ icon, title, originalPrice, price, features, highlighted = 
       }`}
     >
       Get Started
-    </a>
+    </a> */}
   </motion.div>
 );
 
